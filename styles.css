@@ -1,0 +1,34 @@
+// VARIABLES
+
+// COLOR
+$block-color-green: #009900;
+$block-color-red: #cc0000;
+$block-color-blue: #005ce6;
+
+.block {
+    height: 33%;
+    width: 100%;
+}
+
+.blue {
+    background-color: $block-color-blue;
+}
+
+.green {
+    background-color: $block-color-green;
+}
+
+.hidden {
+    display: none;
+}
+
+.logo {
+    width: 200px;
+}
+
+.red {
+    background-color: $block-color-red;
+}
+
+
+
