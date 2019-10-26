@@ -1,16 +1,321 @@
-<html>
-  <header>
-     <figure>
-        <img class="logo" src="https://www.dropbox.com/s/bv692hy8mxqq4cb/logo.png?dl=1" alt="Motley Fool Logo">
-        <figcaption class="hidden">A happy jester wearing a colorful hat with bells</figcaption>
-    </figure>
-      <nav></nav>
-  </header>
-  
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>
+      21st Century Wealth Summit Reminder Sign Up presented by The Motley Fool
+    </title>
+    <meta
+      name="description"
+      content="Sign up now to receive text reminders for The Motley Fool's 21st Century Wealth Summit"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+
   <body>
-      <section class="block red"></section>
-      <section class="block green"></section>
-      <section class="block blue"></section>
-    </body>
-  <footer></footer>
+    <header>
+      <!-- Black Globe Icon bar -->
+      <div class="bg-black p-2 text-light">
+        <!-- Icon provided by FontAwesome, color reversed, https://fontawesome.com/license -->
+        <span class="row align-self-start align-items-center pl-4">
+          <img
+            class="mobile-smaller-icon"
+            src="images/globe-americas-solid.svg"
+            alt="Globe Icon"
+            width="18"
+            height="18"
+          />
+          <h6 class="small pl-3 mt-2">
+            Making the world smarter, happier, and richer.
+          </h6>
+        </span>
+      </div>
+
+      <!-- Motley Fool Logo Bar -->
+      <nav class="navbar navbar-light bg-white">
+        <span class="navbar-brand">
+          <img
+            class="mobile-smaller-brand"
+            src="images/apple-touch-icon.png"
+            width="30"
+            height="30"
+            class="d-inline-block align-top"
+            alt="The Motley Fool Logo: a smiling jester"
+          />
+          <span class="font-weight-bold mobile-smaller-text"
+            >The Motley Fool</span
+          >
+        </span>
+      </nav>
+    </header>
+
+    <main>
+      <section class="bg-violet text-light p-5">
+        <div class="display-4 text-center pb-4 font-weight-bold">Success!</div>
+        <div class="lead text-center pb-4">
+          Your name has been successfully added to the official attendee list
+          for our
+          <span class="font-weight-bold"
+            ><a name="anchor">21st Century Wealth Summit</a></span
+          >.
+        </div>
+      </section>
+
+      <!-- Video -->
+      <section class="bg-violet">
+        <script
+          src="https://fast.wistia.com/embed/medias/tv3jqo141t.jsonp"
+          async
+        ></script>
+        <script
+          src="https://fast.wistia.com/assets/external/E-v1.js"
+          async
+        ></script>
+        <div
+          class="wistia_responsive_padding"
+          style="padding:41.88% 0 0 0;position:relative;"
+        >
+          <div
+            class="wistia_responsive_wrapper"
+            style="height:100%;left:0;position:absolute;top:0;width:100%;"
+          >
+            <div
+              class="wistia_embed wistia_async_tv3jqo141t videoFoam=true"
+              style="height:100%;position:relative;width:100%"
+            >
+              <div
+                class="wistia_swatch"
+                style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"
+              >
+                <img
+                  src="https://fast.wistia.com/embed/medias/tv3jqo141t/swatch"
+                  style="filter:blur(5px);height:100%;object-fit:contain;width:100%;"
+                  alt=""
+                  aria-hidden="true"
+                  onload="this.parentNode.style.opacity=1;"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Phone Number Prompt -->
+      <section class="bg-blue p-md-5">
+        <div class="container-fluid p-5">
+          <div class="row no gutters lead text-light p-3 pl-md-5">
+            <div class="col">
+              Before you do anything – please take just a moment to watch the
+              preview video above. It contains exclusive footage we’ve prepared
+              for Tuesday’s event... and we trust that after watching it, you’ll
+              understand why next Tuesday’s event could
+              <span class="font-weight-bold"
+                >change the way you invest forever</span
+              >.
+            </div>
+          </div>
+          <div class="row no-gutters">
+            <div class="lead col-md-6 text-light p-3 pl-md-5">
+              Please enter your mobile number to make sure you receive helpful
+              text reminders the moment the event goes live.
+            </div>
+            <div
+              class="col-md-6 align-items-center justify-content-center d-flex"
+            >
+              <div class="row">
+                <form class="form-inline">
+                  <!-- Requires international number data-format validation -->
+                  <div class="col-sm p-2">
+                    <input
+                      class="form-control form-control-sm"
+                      type="tel"
+                      id="InputPhone"
+                      placeholder="Mobile Number"
+                      data-format="+1 (ddd) ddd-dddd"
+                    />
+                  </div>
+                  <div class="col-sm p-2">
+                    <button
+                      type="submit"
+                      class="btn btn-outline-light btn-sm"
+                      data-toggle="modal"
+                      data-target="#myModal"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Building image w/ bullets -->
+      <section class="bg-building">
+        <div class="container-fluid p-5">
+          <div class="row no gutters lead text-light p-3 pl-md-5">
+            <div class="col bg-overlay p-3">
+              <div class="p-3">
+                At next Tuesday’s 21st Century Wealth Summit, we’ll not only
+                reveal five stocks that
+                <span class="font-weight-bold"
+                  >we’re confident have 500% upside potential</span
+                >...
+              </div>
+              <div class="p-3">
+                AND give you an inside look into a 26,000-mile journey that
+                includes exclusive insights from the global offices we’ve made
+                massive investments in...
+              </div>
+              <div class="p-3">
+                AND you’ll also discover how to access
+                <span class="font-weight-bold"
+                  >Tom Gardner’s “#1 Global Stock for 2020”!</span
+                >
+              </div>
+              <div class="p-3">
+                We’re confident that at Tuesday’s event, you’ll discover a
+                complete strategy that could
+                <span class="font-weight-bold"
+                  >expand your investing opportunities by 10X!</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        tabindex="-1"
+        id="#myModal"
+        role="dialog"
+        aria-labelledby="Thank you modal"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              body text
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Phone Number Prompt #2 -->
+      <section class="bg-blue p-md-5">
+        <div class="container-fluid p-5">
+          <div class="row no-gutters lead text-light p-3 pl-md-5">
+            <div class="col">
+              Once again, if you haven’t watched the preview video above, we
+              urge you to <a href="#anchor">view it now</a> so you can be fully
+              prepared for next Tuesday. Don't miss this exclusive one-day
+              event!
+            </div>
+          </div>
+          <div class="row no-gutters">
+            <div class="lead col-md-6 text-light p-3 pl-md-5">
+              Please enter your mobile number to make sure you receive a text
+              reminder the moment the
+              <span class="font-weight-bold">21st Century Wealth Summit</span>
+              goes live.
+            </div>
+            <div
+              class="col-md-6 align-items-center justify-content-center d-flex"
+            >
+              <div class="row no-gutters">
+                <form class="form-inline">
+                  <!-- Requires international number data-format validation -->
+                  <div class="col-sm p-2">
+                    <input
+                      class="form-control form-control-sm"
+                      type="tel"
+                      id="InputPhone"
+                      placeholder="Mobile Number"
+                      data-format="+1 (ddd) ddd-dddd"
+                    />
+                  </div>
+                  <div class="col-sm p-2">
+                    <button
+                      type="submit"
+                      class="btn btn-outline-light btn-sm"
+                      data-toggle="modal"
+                      data-target="#myModal"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Final section -->
+      <section class="bg-motley p-md-5">
+        <div class="spacer"></div>
+        <div class="container-fluid p-5">
+          <div class="row p-3 pl-md-5 no-gutters">
+            <div class="col lead text-light bg-overlay p-3">
+              And please be sure to mark your calendars –
+              <span class="font-weight-bold"
+                >Tuesday, October 1 at 9:00 a.m. ET</span
+              >... we can't wait to see you on Tuesday!
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
